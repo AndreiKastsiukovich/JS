@@ -1,0 +1,2 @@
+const solution = (start, finish,differense = finish - start) =>
+  Math.floor(differense / 3) + differense % 3
